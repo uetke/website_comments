@@ -14,6 +14,6 @@ comments:
   moderation: true
   name: "uetke.com"
   path: "comments_yml"
-  requiredFields: []
+  requiredFields: ["name", "email", "url", "message"]
   transforms:
     email: md5
